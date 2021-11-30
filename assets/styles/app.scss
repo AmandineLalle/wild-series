@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(248, 2, 2);
+}
+
+$primary: #9cc2ec;
+$danger: #f7c9de;
+
+@import "~bootstrap/scss/bootstrap";
+
+$theme-colors: (
+  "primary": $primary,
+  "danger": $danger
+);
